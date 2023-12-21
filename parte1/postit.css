@@ -1,0 +1,94 @@
+body {
+  font-family: "Indie Flower", cursive;
+  background-color: #666666;
+  margin: 20px;
+}
+
+#task1 {
+  background-color: #f3f4c0;
+  transform: rotate(353deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task2 {
+  background-color: #bbe1bc;
+  transform: rotate(4deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task3 {
+  background-color: #c2c3ec;
+  transform: rotate(353deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task4 {
+  background-color: #baddbb;
+  transform: rotate(13deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task5 {
+  background-color: #ebecb8;
+  transform: rotate(353deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task6 {
+  background-color: #b5b4d3;
+  transform: rotate(353deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task7 {
+  background-color: #ebecb8;
+  transform: rotate(353deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+#task8 {
+  background-color: #b9ddbb;
+  transform: rotate(13deg);
+  z-index: 1;
+  transition: all 1s;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 250px;
+  height: 220px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+article h4 {
+  font-weight: 900;
+}
+
+#task1:hover,
+#task2:hover,
+#task3:hover,
+#task4:hover,
+#task5:hover,
+#task6:hover,
+#task7:hover,
+#task8:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
